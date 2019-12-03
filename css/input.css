@@ -1,0 +1,35 @@
+*  {
+    margin:2px 2px;
+    padding: 0px:;
+   
+}
+.main{
+	display: flex;
+	flex-direction: row;
+
+}
+.forms {
+    display: flex;
+    justify-content: flex-start;
+}
+.buttons{
+	margin-top: 10px;
+}
+.input-group-text{
+	margin-top: -2px;
+}
+.form-check-label{
+	margin-top: -7px;
+}
+@media (min-height: 450px) and (orientation: portrait){
+	.buttons{
+		display: flex;
+		flex-direction: column;
+
+
+	}
+	.forms {
+    display: flex;
+    flex-direction: column;
+}
+}
